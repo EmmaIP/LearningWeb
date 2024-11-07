@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐟 El Atún rojo. Ayuda</title>
+    <style>
+         *{
+            text-align: center;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(20, 116, 142);
+            color: rgb(20, 116, 142);
+        }
+        .container{
+            background-color: aliceblue;
+            justify-content: center;
+            margin: 15%;
+            padding: 3%; 
+            display: flex;
+            flex-direction: row;  
+        }
+        .container2{
+            background-color: aliceblue;
+            justify-content: center;
+            margin: 15%;
+            padding: 3%;   
+            display: flex;
+            flex-direction: row;
+        }
+        .container3{
+            border: 2px solid rgb(20, 116, 142);
+            margin-top: 5%;
+            padding: 5%;
+        }
+        a{
+            margin: 5%;
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(20, 116, 142);
+        }
+        button{
+            background-color: rgb(20, 116, 142);
+            color: aliceblue;
+            font-size: larger;
+            border-radius: 15%;
+            margin-left: 5%;
+        }
+        textarea{
+            border: 2px solid rgb(20, 116, 142);
+        }
+        input, select{
+            border: 1px solid rgb(20, 116, 142);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>AYUDA AL ATÚN ROJO</h1>
+            <br>
+            <div class="container3">
+                <label for="user_name">Nombre: </label><input type="text" placeholder="Nombre" name="user_name" />
+                <br><br/>
+                <label for="user_surname">Apellidos: </label><input type="text" placeholder="Apellidos" name="user_surname" />
+                <br><br/>
+                <label for="user_address">Dirección: </label><input type="email" placeholder="Dirección" name="user_address" />
+                <br><br />
+                <label for="user_date">Fecha de nacimiento: </label>
+                <input type="date" name="user_date">
+                <br><br />
+                <label for="user_email">Correo electrónico: </label><input type="email" placeholder="Email" name="user_email" />
+            </div> 
+            <br><br/>
+            <div class="container3">
+                <label for="user_info">Cómo quieres recibir la información: </label>
+                <br><br />
+                <select name="user_info">
+                    <option value="1">Dirección Postal</option>
+                    <option value="2">Email</option>
+                    <option value="3">Orgnismo oficial</option>
+                    <option value="4">Forma más rápida</option>
+                </select>
+                <br><br />
+                <label for="user_help">Cómo quieres ayudar: </label>
+                <br><br />
+                <input type="radio" name="user_help" value="1"> Donativo
+                <input type="radio" name="user_help" value="2"> Voluntariado
+                <input type="radio" name="user_help" value="3"> Ambos
+                <br><br />
+                <label for="user_comments">Algo que debamos saber: </label>
+                <br><br />
+                <textarea placeholder="Comenta lo que quieras" name="user_comments"></textarea>
+            </div>
+            <br><br/>
+            <div class="container3">
+                <label for="user_knows">Cómo nos conociste: </label>
+                <br><br/>
+                <input type="checkbox" name="user_knows" value="a"> Medios
+                <input type="checkbox" name="user_knows" value="b"> Amigos
+                <input type="checkbox" name="user_knows" value="c"> Interés
+            </div>
+            
+            <br><br/>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+            <br/>
+        </form>
+    </div>
+   
+
+    <div class="container2">
+        <a href="/exercises/web_html/text.html" target="_blank"><strong>INICIO</strong></a>
+        <br>
+        <a href="/exercises/web_html/table.html" target="_blank"><strong>DATOS</strong></a>
+        <br>
+        <a href="https://www.oceano.org/es/recursos/7-la-sobrepesca-amenaza-al-atun-rojo/" target="_blank"><strong>SABER MÁS</strong></a>
+    </div>
+
+</body>
+</html>
