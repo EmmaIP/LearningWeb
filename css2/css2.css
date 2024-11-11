@@ -1,0 +1,14 @@
+*{
+    border: 1px solid blue;
+}
+h1{
+    color: blueviolet;
+}
+#Header{
+    color: brown;
+}
+.img{
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+}
