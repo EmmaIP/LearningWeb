@@ -1,0 +1,24 @@
+p::first-letter{
+    font-size: 2em;
+}
+li:hover, h1:hover {
+    background-color: blueviolet;
+    color: chartreuse;
+}
+
+a:link{
+    color: darkgreen;
+}
+
+a:hover{
+    background-color: chocolate;
+}
+
+a:visited{
+    color: crimson;
+}
+
+a:active{
+    background-color: darkcyan;
+
+}

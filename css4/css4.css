@@ -1,0 +1,28 @@
+.div{
+    width: 150px;
+    border: 3px solid green;
+}
+#container{
+    padding: 15px;
+    background-color: burlywood;
+    color: rgb(12, 42, 42);
+    position:relative;
+}
+#target {
+    position: relative;
+    left: 55px;
+    top: -65px;
+    z-index: -1;
+}
+.child{
+    background-color: darkgoldenrod;
+}
+.img1{
+    float: left;  
+}
+.img2 {
+    float: right;
+}
+.clear{
+    clear: both;
+}
